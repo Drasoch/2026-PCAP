@@ -12,4 +12,4 @@ Repositório de atividades da disciplina Pensamento Computacional, Algoritmos e 
 
 Cada pasta corresponde a uma aula da disciplina.
 
-- `aula-09/` — Python: variáveis, tipos de dados, operadores
+- `aula-09/'.gitkeep — Python: variáveis, tipos de dados, operadores
