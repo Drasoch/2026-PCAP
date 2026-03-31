@@ -3,3 +3,5 @@ print("Olá,mundo!!")
 #git add .
 #git commit -m "aula-08: primeiro arquivo Python"
 #git push
+#cd aula-09
+#python hello.py
