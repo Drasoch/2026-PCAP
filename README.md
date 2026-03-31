@@ -4,7 +4,7 @@ Repositório de atividades da disciplina Pensamento Computacional, Algoritmos e 
 
 👤 Estudante: Pedro André Paes e Andrade Blaka
 
-📍 IFPR — Centro de Referência Ponta Grossa | 1º ano | 2026
+📍 IFPR — Centro de Referência Ponta Grossa | 1º ano | 2026 
 
 👨‍💻 Professor: Dr. João Henrique Berssanette (Profe. Berssa)
 
