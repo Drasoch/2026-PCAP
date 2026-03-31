@@ -1,2 +1,15 @@
 # 2026-PCAP
-Repositório de atividades - Pensamento Computacional, Algoritmos e Programação
+
+Repositório de atividades da disciplina Pensamento Computacional, Algoritmos e Programação.
+
+👤 Estudante: Pedro André Paes e Andrade Blaka
+
+📍 IFPR — Centro de Referência Ponta Grossa | 1º ano | 2026
+
+👨‍💻 Professor: Dr. João Henrique Berssanette (Profe. Berssa)
+
+## Organização
+
+Cada pasta corresponde a uma aula da disciplina.
+
+- `aula-09/` — Python: variáveis, tipos de dados, operadores
