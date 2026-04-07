@@ -1,0 +1,8 @@
+#print("Hello World!!")
+#print("Pedro")
+#Nome = input("Digite seu nome: ")
+#print(f"Olá, {Nome}!")
+Num1 = int(input("Digite numero 1: "))
+Num2 = int(input("Digite numero 2: "))
+Num3 = (Num1 + Num2)
+print(f"A soma de {Num1} + {Num2} é: {Num1+Num2}")

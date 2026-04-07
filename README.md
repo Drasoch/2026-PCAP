@@ -15,4 +15,3 @@ Cada pasta corresponde a uma aula da disciplina.
 - `aula-09/` — Python: variáveis, tipos de dados, operadores
 
 ...demais pastas serão criadas ao longo do ano
-
