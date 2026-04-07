@@ -5,10 +5,10 @@ Estudante: Pedro André P. de A. Blaka
 '''
 #Objetivo: mostrar na tela a média de duas notas de um aluno
 
-A = 3.5
-B = 7.5
-Med = (A + B)/2 
-print(f"MEDIA = {Med}")
+A = float(input())
+B = float(input())
+Med = (A + B)/ 2
+print(f"MEDIA = {Med:.5f}")
 
 
 
