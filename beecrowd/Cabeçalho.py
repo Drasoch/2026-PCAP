@@ -1,7 +1,7 @@
 '''
 Problema: beecrowd | NúmeroDoProblema
 Data: ano.mes.dia
-Estudante: SeuNome
+Estudante: Pedro André P. A. Blaka
 '''
 # Objetivo: descrição sucinta do que o programa deve fazer
 
