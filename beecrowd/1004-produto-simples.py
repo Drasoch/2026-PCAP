@@ -12,5 +12,8 @@ Estudante: Pedro André P. A. Blaka
 
 A = int(input(""))
 B = int(input(""))
+
+# executa a multiplicação dos valores
 PROD = A * B
+
 print(f"PROD = {PROD}")
