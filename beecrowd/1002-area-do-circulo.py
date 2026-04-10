@@ -14,6 +14,6 @@ R = float(input())
 
 pi = 3.14159
 
-AREA = pi * R ** 2     # fórmula da area do circulo 
+AREA = pi * R ** 2     # fórmula da area do circulo.
 
 print(f"A={AREA:.4f}")
