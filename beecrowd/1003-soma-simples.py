@@ -13,5 +13,8 @@ Estudante: Pedro André P. A. Blaka
 
 A = int(input(""))
 B = int(input(""))
+
 SOMA = A + B
+
+#exibe o "SOMA = (valor da soma dos números)"
 print(f"SOMA = {SOMA}")
