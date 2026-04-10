@@ -12,5 +12,8 @@ Estudante: Pedro André P. A. Blaka
 
 A = int(input(""))
 B = int(input(""))
+
+#executa a soma dos valores 
 X = A + B
+
 print(f"X = {X}")
