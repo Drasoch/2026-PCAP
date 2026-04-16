@@ -16,7 +16,7 @@ X = int(input())
 #le o total de combustível em decimal (float)
 Y = float(input())
 
-# calcula a média de consumo do carro
+# calcula a média de consumo do carro.
 consumo = X / Y 
 
 print(f"{consumo:.3f} km/l")
