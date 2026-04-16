@@ -24,7 +24,7 @@ cod2, qtd2, val2 = input().split()
 qtd2 = int(qtd2)
 val2 = float(val2)
 
-# calcula o valor total: subtotal da peça 1 + subtotal da peça 2
+# calcula o valor total: subtotal da peça 1 + subtotal da peça 2.
 total = (qtd1 * val1) + (qtd2 * val2)
 
 print(f"VALOR A PAGAR: R$ {total:.2f}")
