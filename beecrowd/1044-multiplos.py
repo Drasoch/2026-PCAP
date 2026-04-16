@@ -25,7 +25,7 @@ else:
     menor = A
 
 # Operador módulo (%): retorna o resto da divisão inteira
-# Se o resto for 0, o maoir é multiplo do menor -> são multiplos entre si
+# Se o resto for 0, o maoir é multiplo do menor -> são multiplos entre si.
 if maior % menor == 0:     
     print("Sao Multiplos")
 else:
