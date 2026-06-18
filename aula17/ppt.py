@@ -14,13 +14,27 @@ def resultado(jogador, maquina):
          return "empate"
     if jogador == "pedra" and maquina == "tesoura":
         return "jogador"
+    if jogador == "pedra" and maquina == "lagarto":
+        return "jogador"
     if jogador == "papel" and maquina == "pedra":
+        return "jogador"
+    if jogador == "papel" and maquina == "spock":
         return "jogador"
     if jogador == "tesoura" and maquina == "papel":
         return "jogador"
+    if jogador == "tesoura" and maquina == "lagarto":
+        return "jogador"
+    if jogador == "lagarto" and maquina == "papel":
+        return "jogador"
+    if jogador == "lagarto" and maquina == "spock":
+        return "jogador"
+    if jogador == "spock" and maquina == "tesoura" :
+        return "jogador"
+    if jogador == "spock" and maquina =="pedra":
+        return "jogador"
     return "maquina"    # caso nenhum acima seja True a máquina venceu
 
-opcoes = ["pedra", "papel", "tesoura"]
+opcoes = ["pedra", "papel", "tesoura", "lagarto", "spock"]
 pontos_jogador = 0
 pontos_maquina = 0
 
@@ -73,13 +87,14 @@ Uma sub-rotina decide quem venceu e o programa soma os pontos das 5 rodadas.
 - Sub-rotinas (def/return): isolar a regra do jogo
 
 ## 🎯 Autoavaliação
-Conceito pretendido: [ A / B / C / D ]
+Conceito pretendido: B
 
 Justificativa (cite arquivo e linha de cada critério):
-- O jogo funciona ............: ppt.py, linhas __ a __
+- O jogo funciona ............: ppt.py, linhas 09 a 62
 - Trabalho com texto .........: ppt.py, linha __  (.lower().strip(), in, ==)
 - Documentação e Git .........: este README + commits no GitHub
-- Extensão/originalidade .....: ppt.py, linha __  (o que eu criei — níveis B/A)
+- Extensão/originalidade .....: ppt.py, linha __  (o que eu criei — nesse jogo eu implementei o Lagarto e o spock mas ainda sim poderia melhorar acrescntando algo mais,
+ mas confio no julgamento do senhor)
 
 Autor: Pedro André Paes de Andrade Blaka
 '''
