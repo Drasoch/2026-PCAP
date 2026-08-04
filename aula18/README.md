@@ -33,3 +33,4 @@ Mereço conceito C pois nessa atvidade não acrescentei algo de novo fiz só o b
 - Extensão/originalidade .....: par_impar.py, linha   (o que eu criei — níveis B/A)  --> Não acrescentei algo de novo 😔
 ​
 Autor: Pedro André Paes de Andrade Blaka
+

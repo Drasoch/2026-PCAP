@@ -20,9 +20,11 @@ def vitoria(soma, num_jog):
         return "num_jog"
     return "soma"
 
+# Opções
 opcoes = ["par", "impar"]
 pj = 0 
 pm = 0 
+
 for rodada in range(1, 6):
     print(f"--- Rodada: {rodada} ---")
     

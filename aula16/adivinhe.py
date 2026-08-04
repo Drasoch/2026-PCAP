@@ -22,7 +22,7 @@ def jogar(maximo, chances):
             print(f"📈 Muito baixo!")
         else:
            print(f"📉 Muito alto!")
-        chances = chances -1 
+        chances = chances - 1 
         print(f"Chances restantes {chances}")
 
 
