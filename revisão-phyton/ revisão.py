@@ -51,3 +51,7 @@ print("Fim de jogo!")
 
 # Concerto 04: trecho do pedra-papel-tesoura (Aula 17)
 jogada = input("pedra, papel ou tesoura? ")
+if jogada == "pedra" or jogada == "papel" or jogada == "tesoura":
+    print("Jogada válida", jogada)
+else:
+    print("Jogada inválda")

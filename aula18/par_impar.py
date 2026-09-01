@@ -40,10 +40,10 @@ for rodada in range(1, 6):
     else:
         quem = vitoria(soma, num_jog)
         if quem == "num_jog":
-            print("Você ganhou!")
+            print("Você ganhou! Era", soma)
             pj = pj + 1
         else:
-            print("Você errou!")
+            print("Você errou! Era", soma)
             pm = pm + 1
 
 print(f"Placar --> Você: {pj} | Máquina: {pm}")
