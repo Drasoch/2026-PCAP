@@ -9,41 +9,34 @@ from random import randint
 # Data: 2026.09.01          
 # ==================================================
 def vencedor(soma, jog_j):
-    if soma % 2 == 0:
-        soma = "par"
-    else:
-        soma = "impar"
-
-    if jog_j == "par" and soma == "par":
+    resultado = "par" if soma % 2 == 0 else "impar"
+    if jog_j == resultado:
         return "jog_j"
-    elif jog_j == "impar" and soma == "impar":
-        return "jog_j"
-    else:
-        return "soma"
+    return "soma"
 
 
 def jogar_poi():
     titulo("PAR ou IMPAR")
     linha()
-    
+
+    pm = 0
+    pj = 0
+
     for rodada in range(1, 5):
-        pm = 0
-        pj = 0
-        print("Rodada", rodada,":")
+        print("Rodada", rodada, ":")
         num_jog = ler_numero("Escolha um número de 1 a 5", 1, 5)
-        jog = ler_opcao("Sua Jogada par ou impar", ["par", "impar"])
-        jog_j = jog.lower().strip
+        jog = ler_opcao("Sua Jogada par ou impar", ["par", "impar"]).lower().strip()
         num_comp = randint(1, 5)
         soma = num_jog + num_comp
 
-        quem = vencedor(soma, jog_j)
+        quem = vencedor(soma, jog)
         if quem == "jog_j":
+            pj += 1
             print("Você acertou!! Era", soma)
-        if quem == "soma":
+        else:
+            pm += 1
             print("Você errou!! Era", soma)
 
-    
-        
     print(f"Placar --> Você: {pj} | Máquina: {pm}")
 
 
