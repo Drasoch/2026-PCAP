@@ -15,6 +15,5 @@ int main(){
 1. Ir para o diretótio raiz
 2. git add prog-c
 3. git commit -m "Hello-C"
-
-
+4. git push
 */
