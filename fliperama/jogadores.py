@@ -43,7 +43,7 @@ def listar(jogadores):
 
 def buscar(jogadores, apelido):
     '''
-    Procura um apelido no cadastro e diz ONDE eke esta.
+    Procura um apelido no cadastro e diz ONDE ele esta.
 
     Parametros: 
     jogadores (list) - o cadastro inteiro 
