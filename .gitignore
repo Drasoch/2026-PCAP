@@ -212,4 +212,4 @@ prog-c/*
 fliperama-c/*
 !fliperama-c/*.c
 prog-cpp/*
-!prog-cpp/*.c
+!prog-cpp/*.cpp
