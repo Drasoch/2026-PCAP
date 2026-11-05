@@ -31,7 +31,7 @@ int main(){
     }
 
     pos = posicao_do_menor(v);
-    cout << "Menor Valor: " << v[pos] << endl;
+    cout << "Menor valor: " << v[pos] << endl;
     cout << "Posicao: " << pos << endl;
 
     return 0;
