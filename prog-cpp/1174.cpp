@@ -1,6 +1,6 @@
 /*
 * Disciplina : 2026-PCAP
-* Problema   : beecrowd 1180 - Menor Posição
+* Problema   : beecrowd 1174 - Selecao em Vetor 1
 * Autor      : Pedro André P. A. Blaka
 * LIAC       : le um vetor A[100], E mostrar todas as posicoes onde os numeros sao menores ou iguais a 10 e o valor nessas posições
 */
