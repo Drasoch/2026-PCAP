@@ -9,23 +9,6 @@
 
 #include <stdio.h>
 
-int main(){
-    int casos, k, x;
-
-    sacnf("%d", &casos);
-
-    for (k = 0; k < casos; k++){
-        scanf("%d", &x);
-        if (eh_primo(x)){
-            printf("%d eh primo\n", x);
-        }else{
-            printf("%d nao eh primo\n", x);
-        }
-    }
-
-    return 0;
-}
-
 int eh_primo(int n){
     int i;
 
@@ -38,4 +21,22 @@ int eh_primo(int n){
         }
     }
     return 1;
+}
+
+
+int main(){
+    int casos, k, x;
+
+    scanf("%d", &casos);
+
+    for (k = 0; k < casos; k++){
+        scanf("%d", &x);
+        if (eh_primo(x)){
+            printf("%d eh primo\n", x);
+        }else{
+            printf("%d nao eh primo\n", x);
+        }
+    }
+
+    return 0;
 }
