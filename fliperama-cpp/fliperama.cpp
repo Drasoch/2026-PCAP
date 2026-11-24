@@ -89,6 +89,10 @@ void cadastrar(vector<string> &apelidos, vector<int> &partidas){
 
     titulo("NOVO JOGADOR");
     novo = ler_texto("Apelido (sem espaços)");
+    if (buscar(apelidos, novo) != -1){ // cadastro duplo
+        cout << "Esse apelido ja foi cadastrado!" << endl;
+        return;
+    }
 
     apelidos.push_back(novo);
     partidas.push_back(0);
@@ -175,3 +179,12 @@ int main(){
     titulo("Até a próxima");
     return 0;
 }
+
+
+
+
+// Problema do cadastro duplo com while:
+/* while(buscar(apelidos, novo) != -1){     
+        cout << "Esse apelido ja está cadastrado!" << endl;
+        novo = ler_texto("Apelido (sem espaços)");
+    } */
