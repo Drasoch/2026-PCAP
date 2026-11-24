@@ -216,3 +216,4 @@ fliperama-c/*
 prog-cpp/*
 !prog-cpp/*.cpp
 fliperama-cpp/fliperama
+*.class
